@@ -22,9 +22,10 @@ code {
   justify-content: center;
   gap: 7px;
   margin-top: 22px;
+  width: 100%;
 }
 .searchBar input{
-  width: 400px;
+/*   width: 400px; */
   padding: 9px;
   font-size: 22px;
   border: none;
