@@ -130,8 +130,16 @@ code {
 .suggestions>li:hover{
   background-color: rgb(253, 221, 161);
 }
+.container{
+  width: 100%;
+  max-width: 1200px;
+}
 
 @media only screen and (max-width: 600px) {
+  .container{
+  width: 100%;
+  max-width: 450px;
+}
   .mealInfo{
     flex-direction: column;
   }
